@@ -13,8 +13,7 @@
     <div class="container">
         <?php
         $doctorId = $_GET['id'];
-        // Here you would normally query a database to get the chambers for the doctor
-        // For this example, we'll use static data
+        // query a database to get the chambers for the doctor
         $chambers = [
             ["location" => "Location A", "time" => "9:00 AM - 11:00 AM"],
             ["location" => "Location B", "time" => "12:00 PM - 2:00 PM"],
